@@ -1,0 +1,62 @@
+.task {
+    border: solid #2b2b2b 2px;
+    margin: 9px;
+}
+
+.task__content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.task__header {
+    display: flex;
+    justify-content: left;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    margin-left: 10px;
+}
+
+.task__main {
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.task__text {
+    text-align: left;
+    margin-right: 50px;
+}
+
+.task__description {
+    margin-top: 20px;
+}
+
+.task__quest {
+    margin-top: 30px;
+}
+
+.task__answer {
+    display: inline-block;
+    padding: 2px;
+    font-size: 14px;
+    margin-top: 50px;
+    border: solid black;
+    color: #800000;
+    font-weight: 700;
+}
+
+.task__id {
+    margin: 3px;
+}
+
+.task__number {
+    margin: 3px;
+}
+
+.task__img {
+    max-height: 300px;
+}
