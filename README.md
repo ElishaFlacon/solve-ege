@@ -98,8 +98,9 @@
  📺 Демо:
 </h2>
 
-- <a href="https://github.com/ElishaFlacon/dosy/assets/83610362/9a64d266-766e-4a1a-973e-44193fa1f6b8">Нажать чтобы демо!</a>
-- <video src="https://github.com/ElishaFlacon/dosy/assets/83610362/9a64d266-766e-4a1a-973e-44193fa1f6b8" />
+- <a href="https://github.com/ElishaFlacon/solve-ege/assets/83610362/190b1a53-da7f-4409-89c4-450554fb2e13">Нажать чтобы демо!</a>
+- <video src="https://github.com/ElishaFlacon/solve-ege/assets/83610362/190b1a53-da7f-4409-89c4-450554fb2e13" />
+
 
 
 
