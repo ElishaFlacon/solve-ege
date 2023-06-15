@@ -1,19 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Roboto:wght@100;300;400;500;700;900&family=Rubik:wght@300;400;500;600;700;800&display=swap');
+
+:root {
+    --color-primary: #41444b;
+    --color-hover: #52575d;
+    --color-active: #fddb3a;
+    --color-disable: #41444b60;
+    --color-background: #f6f4e6;
+}
+
 * {
     padding: 0;
     margin: 0;
     border: 0;
 }
 
-*,
-*:before,
-*:after {
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
+html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    height: 100%;
+    width: 100%;
 }
 
-:focus,
-:active {
-    outline: none;
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    min-width: 100vh;
+    background: #f6f4e6;
 }
 
 a:focus,
@@ -28,18 +42,6 @@ aside {
     display: block;
 }
 
-html,
-body {
-    height: 100%;
-    width: 100%;
-    font-size: 100%;
-    line-height: 1;
-    font-size: 14px;
-    -ms-text-size-adjust: 100%;
-    -moz-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%;
-}
-
 input,
 button,
 textarea {
@@ -52,6 +54,7 @@ input::-ms-clear {
 
 button {
     cursor: pointer;
+    background: inherit;
 }
 
 button::-moz-focus-inner {
@@ -75,12 +78,4 @@ ul li {
 
 img {
     vertical-align: top;
-}
-
-body {
-    margin: 0;
-    font-family: monospace;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    background: #ffffff;
 }
