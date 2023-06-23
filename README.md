@@ -1,5 +1,5 @@
 <h1> 
-     👀 Solve Ege
+     📚 Solve Ege
 </h1>
 
 <h3>
