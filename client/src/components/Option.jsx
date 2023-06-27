@@ -2,6 +2,7 @@ import { useReducer, useEffect, useState, useMemo } from 'react';
 import { useParams } from "react-router-dom";
 import axios from 'axios';
 import Task from './Task';
+import Button from './UI/button/Button';
 
 
 function Option() {
@@ -86,7 +87,7 @@ function Option() {
                 <h1>Код предмета: {tasks.data[0].subject}</h1>
 
                 <form action="" onSubmit={checkAnswers}>
-                    <button type="submit">submit</button>
+                    <Button type="submit">проверить (результат выводится в консоли)</Button>
                     {
                         tasks.data.map((el) =>
                             <Task
