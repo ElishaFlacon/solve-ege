@@ -22,8 +22,9 @@ class OptionGenerationService {
 
         // return obj
         return {
-            taskNumber: taskNumber,
-            taskId: task.id,
+            number: taskNumber,
+            id: task.id,
+            answer: task.answer,
         };
     }
 
