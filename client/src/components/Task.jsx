@@ -1,4 +1,5 @@
 import './Task.css';
+import Input from './UI/input/Input';
 
 
 function Task(props) {
@@ -13,7 +14,7 @@ function Task(props) {
                     <div className="task__text">
                         <div className="task__description">{props.taskDescription}</div>
                         <div className="task__quest">{props.taskQuest}</div>
-                        <div className="task__answer">тут будет поле для записи ответа</div>
+                        <Input name={props.name} id={props.id} />
                     </div>
                     <img className='task__img' src={"http://localhost:5000/" + props.taskPicture} alt="ЧЗХ ГДЕ КАРТИНКА?!" />
                 </main>
