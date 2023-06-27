@@ -1,6 +1,8 @@
 import { useState } from 'react'
 import axios from 'axios';
 import './CreateTask.css';
+import Input from './components/UI/input/Input';
+import Button from './components/UI/button/Button';
 
 
 function CreateTask(props) {
@@ -42,26 +44,26 @@ function CreateTask(props) {
 
     return (
         <div className='form'>
-            <h1>JOPPA</h1>
+            <h1>Загрузите задание</h1>
 
             <div>Предмет</div>
-            <input type="text" value={task.subject} onChange={event => changeHandler(event, 'subject')} className='place-m' />
+            <Input type="text" value={task.subject} onChange={event => changeHandler(event, 'subject')} />
 
             <div>Номер задания</div>
-            <input type="text" value={task.number} onChange={event => changeHandler(event, 'number')} className='place-m' />
+            <Input type="text" value={task.number} onChange={event => changeHandler(event, 'number')} />
 
             <div>Задание</div>
             <textarea type="text" value={task.quest} onChange={event => changeHandler(event, 'quest')} className='place-b' />
 
             <div>Картинка</div>
-            <input type="file" onChange={event => changeHandler(event, 'picture')} className='place-m' />
+            <Input type="file" onChange={event => changeHandler(event, 'picture')} />
 
             <div>Ответ</div>
-            <input type="text" value={task.answer} onChange={event => changeHandler(event, 'answer')} className='place-m' />
+            <Input type="text" value={task.answer} onChange={event => changeHandler(event, 'answer')} />
             <br />
             <br />
             <br />
-            <button onClick={createTask}>Отправить</button>
+            <Button onClick={createTask}>Отправить</Button>
         </div>
     )
 }
