@@ -1,6 +1,46 @@
 .app {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex: 1 0 auto;
     max-width: 1024px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.footer {
+    font-weight: 700;
+    flex-shrink: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+.option {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.header {
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo {
+    padding: 15px;
+    width: 70px;
+    height: 70px;
+    align-items: center;
+}
+
+.header-list {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
