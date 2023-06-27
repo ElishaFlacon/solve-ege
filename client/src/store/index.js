@@ -31,6 +31,17 @@ export default class Store {
         }
     }
 
+    async registration(emai, password) {
+        try {
+            const response = await AuthService.registration(emai, password);
+            localStorage.setItem('token', response.data.accesToken);
+            this.setAuth(true);
+            this.setUser(response.data.user);
+        } catch (error) {
+            console.log(error.response?.data?.message);
+        }
+    }
+
     async logout() {
         try {
             const response = await AuthService.logout();
