@@ -1,5 +1,5 @@
 const taskService = require('../service/task.service');
-const taskGenerationService = require('../service/task-generation.service');
+const optionGenerationService = require('../service/optionGeneration.service');
 
 
 class TaskController {
@@ -72,7 +72,7 @@ class TaskController {
     async generateTaskOption(req, res, next) {
         try {
             // generate option
-            const option = await taskGenerationService.generateOption(req.params.id);
+            const option = await optionGenerationService.generateOption(req.params.id);
 
             return res.json(option);
         } catch (e) {
