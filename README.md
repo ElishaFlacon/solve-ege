@@ -3,7 +3,7 @@
 </h1>
 
 <h3>
-     Solve Ege - это Fullstack приложение, которое является аналогом образовательного портала для подготовки к экзаменам Решу ЕГЭ (https://ege.sdamgia.ru/). Front-end построен на React. Back-end использует библиотеку Express для работы API, который построен на архитектурном стиле REST. База данных PostgreSQL
+     Solve Ege - это Fullstack приложение, которое является аналогом образовательного портала для подготовки к экзаменам Решу ЕГЭ (https://ege.sdamgia.ru/). Front-end написан на JavaScript и использует библиотеки React и MobX. Back-end написан на NodeJS использует библиотеку Express для работы REST API. База данных PostgreSQL
 
 </br>
 </br>
